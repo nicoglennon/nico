@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.nico {
+  text-align: center;
+  color: rgb(25, 21, 69);
+  padding: 24px;
+  font-family: 'Karla', sans-serif;
+  opacity: 0.95;
+}
+
+.nico-container {
+  margin: auto;
+  padding: 24px;
+  margin-top: 40px;
+  max-width: 780px;
+  text-align: left;
+  transition: opacity 2s ease-out;
+
+}
+
+.nico-title {
+  font-size: 6.7em;
+  font-weight: 700;
+  margin: 0px;
+  margin-bottom: 10px;
+  line-height: 100px;
+  letter-spacing: -0.1rem;
+}
+
+.nico-intro {
+  color: #191545;
+  font-size: 1.8em;
+  font-weight: 400px;
+  line-height: 2.4rem;
+  margin-bottom: 5px;
+
+}
+
+.nico-more {
+  margin: 8px 0px;
+}
+
+.nico-content {
+  font-size: 1.5em;
+  font-weight: 200;
+}
+
+.nico-link {
+  text-decoration: none;
+  color: #5024fc;
+  transition: color 100ms ease-out;
+}
+
+.nico-link:visited {
+  text-decoration: none;
+  color: #5024fc;
+}
+
+.nico-emoji-container {
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  padding: 5px 0px;
+  max-width: 490px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.nico-emoji {
+  border-radius: 5px;
+  font-size: 52px;
+  display: inline-block;
+  margin: 0px 0px;
+  padding: 0px 12px;
+  transition: background-color 80ms ease-out;
+}
+
+.nico-emoji:hover {
+  background-color: #eeeeee;
+  transition: background-color 200ms ease-out;
+}
+
+.nico-emoji-link {
+  text-decoration: none;
+}
+
+.nico-link:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .nico {
+    padding: 0px;
+  }
+
+  .nico-container {
+    margin-top: 0px;
+  }
+
+  .nico-title {
+    margin-top: 0px;
+    font-size: 3.3em;
+    line-height: 3.2rem;
+  }
+
+  .nico-intro {
+    font-size: 1.2em;
+    line-height: 1.5rem;
+  }
+
+  .nico-more {
+    margin-top: 10px;
+  }
+
+  .nico-emoji {
+    margin: 5px 5px;
+    font-size: 48px;
+  }
+
+  .nico-content {
+    font-size: 1em;
+  }
+
+  .nico-emoji-container {
+    margin-top: 20px;
+    max-width: 275px;
+  }
+}
