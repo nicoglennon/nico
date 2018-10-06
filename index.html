@@ -3,6 +3,7 @@
   <head>
   	<!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122666787-1"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -20,59 +21,56 @@
   </head>
   <body>
 	  <noscript>You need to enable JavaScript to run this app.</noscript>  
-    <div class="nico" id="container">
-      <div class="nico-container" id="inner">
-        <p class="nico-title">
-          Hola, soy <br />
-          Nico Glennon.
+    <div class="nico">
+      <div class="nico-container">
+        <br />
+        <p class="nico-intro" id="first-line">
+          Hey you! I'm <strong>Nico</strong>.
         </p>
-        <p class="nico-title">
-          Programo.
-        </p>
-        <p class="nico-intro">
+        <p class="nico-intro" id="second-line">
           I'm currently a software developer at <a class="nico-link" href="https://ibm.com" target="_blank">IBM</a> in the Windy City.
           I used to be a trader, but then I got <a class="nico-link" href="https://a16z.com/2016/08/20/why-software-is-eating-the-world/" target="_blank">high</a>.
         </p>
-        <p class="nico-intro nico-more">
-          Here's some <a class="nico-link" href="https://www.notion.so/nicoglennon/Nico-s-Stuff-2a394572b25547e78095f4753d08bf3b" target="_blank">cool stuff</a> I like.
+        <p class="nico-intro" id="third-line">
+          Here's <a class="nico-link" href="https://www.notion.so/nicoglennon/Nico-s-Stuff-2a394572b25547e78095f4753d08bf3b" target="_blank">more</a> about me.
         </p>
-        <div class="nico-emoji-container">
-          <p class="nico-emoji">
+        <div class="nico-emoji-container" id="gray-box">
+          <p class="nico-emoji" id="first-emoji">
             <a class="nico-emoji-link" href="https://www.linkedin.com/in/nicoglennon/" target="_blank">
               <span role="img" aria-label="LinkedIn" class="nico-emoji-span">
                 👨🏻‍💼
               </span>
             </a>
           </p>
-          <p class="nico-emoji">
+          <p class="nico-emoji" id="second-emoji">
             <a class="nico-emoji-link" href="https://github.com/nicoglennon" target="_blank">
               <span role="img" aria-label="GitHub" class="nico-emoji-span">
                 ‍👨🏻‍💻
               </span>
             </a>
           </p>
-          <p class="nico-emoji">
+          <p class="nico-emoji" id="third-emoji">
             <a class="nico-emoji-link" href="https://medium.com/@nicoglennon" target="_blank">
               <span role="img" aria-label="Medium" class="nico-emoji-span">
                 👨🏻‍🏫
               </span>
             </a>
           </p>
-          <p class="nico-emoji">
+          <p class="nico-emoji" id="fourth-emoji">
             <a class="nico-emoji-link" href="https://open.spotify.com/user/nicoglennon/playlist/0l9RQcbss17TUCnesCC07y" target="_blank">
               <span role="img" aria-label="Spotify" class="nico-emoji-span">
                 👨🏻‍🎤
               </span>
             </a>
           </p>
-          <p class="nico-emoji">
+          <p class="nico-emoji" id="fifth-emoji">
             <a class="nico-emoji-link" href="https://fewyork.com" target="_blank">
               <span role="img" aria-label="Few York" class="nico-emoji-span">
                 👨🏻‍🎨
               </span>
             </a>
           </p>
-          <p class="nico-emoji">
+          <p class="nico-emoji" id="sixth-emoji">
             <a class="nico-emoji-link" href="https://instagr.am/nicoglennon" target="_blank">
               <span role="img" aria-label="Instagram" class="nico-emoji-span">
                 👨🏻‍🚀
@@ -82,5 +80,6 @@
         </div>
       </div>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
