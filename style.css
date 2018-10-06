@@ -28,8 +28,8 @@ body {
   font-size: 1.4em;
   font-weight: 400px;
   line-height: 1.8rem;
-  margin-bottom: 15px;
-  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-top: 0px;
   opacity: 0;
 }
 
@@ -61,11 +61,12 @@ body {
   margin: auto;
   margin-top: 25px;
   text-align: center;
-  padding: 5px 0px;
+  padding: 10px 0px;
   max-width: 500px;
   background-color: #f9f9f9;
   border-radius: 5px;
   opacity: 0;
+  transform: translateY(20px);
 }
 
 .nico-emoji {
@@ -74,13 +75,14 @@ body {
   display: inline-block;
   margin: 0px 0px;
   padding: 0px 12px;
-  transition: background-color 80ms ease-out;
+  transition: background-color 200ms ease-out;
   opacity: 0;
+  transform: translateY(30px);
 }
 
 .nico-emoji:hover {
   background-color: #eeeeee;
-  transition: background-color 200ms ease-out;
+  transition: background-color 300ms ease-out;
 }
 
 .nico-emoji-link {
@@ -90,7 +92,13 @@ body {
 .visible {
   opacity: 1;
   transform: translateY(0px);
-  transition: opacity 1000ms ease-out, transform 1000ms cubic-bezier(.14,.99,.56,.99);
+  transition: opacity 1100ms ease-out, transform 1500ms cubic-bezier(.14,.99,.56,.99);
+}
+
+.visible-emoji {
+  opacity: 1;
+  transform: translateY(0px);
+  transition: opacity 1000ms ease-out, transform 1300ms cubic-bezier(.43,1.68,.58,.99), background-color 200ms ease-out;
 }
 
 @media only screen and (max-width: 600px) {
@@ -101,7 +109,7 @@ body {
 
   .nico-container {
     margin-top: 0px;
-    max-width: 275px;
+    max-width: 300px;
 
   }
 
@@ -131,6 +139,6 @@ body {
 
   .nico-emoji-container {
     margin-top: 20px;
-    max-width: 275px;
+    max-width: 300px;
   }
 }

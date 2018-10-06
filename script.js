@@ -1,15 +1,16 @@
 
 $( document ).ready(function() {
-  showFirstLine();
-  setTimeout(showSecondLine, 1500);
-  setTimeout(showThirdLine, 3300);
-  setTimeout(showGrayBox, 4700);
-  setTimeout(showFirstEmoji, 5000);
-  setTimeout(showSecondEmoji, 5200);
-  setTimeout(showThirdEmoji, 5400);
-  setTimeout(showFourthEmoji, 5600);
-  setTimeout(showFifthEmoji, 5800);
-  setTimeout(showSixthEmoji, 6000);
+
+  setTimeout(showFirstLine, 500);
+  setTimeout(showSecondLine, 2200);
+  setTimeout(showThirdLine, 4600);
+  setTimeout(showGrayBox, 6750);
+  setTimeout(showFirstEmoji, 6750);
+  setTimeout(showSecondEmoji, 6750);
+  setTimeout(showThirdEmoji, 7150);
+  setTimeout(showFourthEmoji, 7300);
+  setTimeout(showFifthEmoji, 7450);
+  setTimeout(showSixthEmoji, 7600);
 
 
 });
@@ -31,25 +32,25 @@ function showGrayBox() {
 }
 
 function showFirstEmoji() {
-   $('#first-emoji').addClass('visible');
+   $('#first-emoji').addClass('visible-emoji');
 }
 
 function showSecondEmoji() {
-   $('#second-emoji').addClass('visible');
+   $('#second-emoji').addClass('visible-emoji');
 }
 
 function showThirdEmoji() {
-   $('#third-emoji').addClass('visible');
+   $('#third-emoji').addClass('visible-emoji');
 }
 
 function showFourthEmoji() {
-   $('#fourth-emoji').addClass('visible');
+   $('#fourth-emoji').addClass('visible-emoji');
 }
 
 function showFifthEmoji() {
-   $('#fifth-emoji').addClass('visible');
+   $('#fifth-emoji').addClass('visible-emoji');
 }
 
 function showSixthEmoji() {
-   $('#sixth-emoji').addClass('visible');
+   $('#sixth-emoji').addClass('visible-emoji');
 }
