@@ -3,14 +3,14 @@ $( document ).ready(function() {
 
   setTimeout(showFirstLine, 500);
   setTimeout(showSecondLine, 2200);
-  setTimeout(showThirdLine, 4600);
-  setTimeout(showGrayBox, 6750);
-  setTimeout(showFirstEmoji, 6750);
-  setTimeout(showSecondEmoji, 6750);
-  setTimeout(showThirdEmoji, 7150);
-  setTimeout(showFourthEmoji, 7300);
-  setTimeout(showFifthEmoji, 7450);
-  setTimeout(showSixthEmoji, 7600);
+  setTimeout(showThirdLine, 4200);
+  setTimeout(showGrayBox, 6250);
+  setTimeout(showFirstEmoji, 6250);
+  setTimeout(showSecondEmoji, 6400);
+  setTimeout(showThirdEmoji, 6550);
+  setTimeout(showFourthEmoji, 6700);
+  setTimeout(showFifthEmoji, 6850);
+  setTimeout(showSixthEmoji, 7000);
 
 
 });
